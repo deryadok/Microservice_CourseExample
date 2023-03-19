@@ -3,7 +3,7 @@ using Course.Shared.Dtos;
 
 namespace Course.Services.Catalog.Services
 {
-    internal interface ICourseService
+    public interface ICourseService
     {
         Task<Response<List<CourseDto>>> GetAllAsync();
         Task<Response<CourseDto>> GetByIdAsync(string id);

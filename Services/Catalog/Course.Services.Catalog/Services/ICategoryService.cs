@@ -4,7 +4,7 @@ using Course.Shared.Dtos;
 
 namespace Course.Services.Catalog.Services
 {
-    interface ICategoryService
+    public interface ICategoryService
     {
         Task<Response<List<CategoryDto>>> GetAllAsync();
 

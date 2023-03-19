@@ -7,7 +7,7 @@ using MongoDB.Driver;
 
 namespace Course.Services.Catalog.Services
 {
-    internal class CourseService : ICourseService
+    public class CourseService : ICourseService
     {
         private readonly IMongoCollection<Model.Course> _courseCollection;
         private readonly IMongoCollection<Category> _categoryCollection;
@@ -33,7 +33,7 @@ namespace Course.Services.Catalog.Services
             {
                 foreach (var course in courses)
                 {
-                    course.Category = await _categoryCollection.Find<Category>(c => c.Id == course.CategoryId).FirstAsync();
+                    course.Category = await _categoryCollection.Find(c => c.Id == course.CategoryId).FirstAsync();
                 }
             }
             else

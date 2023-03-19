@@ -8,7 +8,7 @@ namespace Course.Services.Catalog.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    internal class CategoryController : CustomBaseController
+    public class CategoryController : CustomBaseController
     {
         private readonly ICategoryService _categoryService;
 

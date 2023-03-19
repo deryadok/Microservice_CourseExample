@@ -7,7 +7,7 @@ using MongoDB.Driver;
 
 namespace Course.Services.Catalog.Services
 {
-    internal class CategoryService : ICategoryService
+    public class CategoryService : ICategoryService
     {
         private readonly IMongoCollection<Category> _categoryCollection;
 
@@ -19,7 +19,7 @@ namespace Course.Services.Catalog.Services
 
             var database = client.GetDatabase(databaseSettings.DatabaseName);
 
-            _categoryCollection = database.GetCollection<Category>(databaseSettings.CourseCollectionName);
+            _categoryCollection = database.GetCollection<Category>(databaseSettings.CategoryCollectionName);
             _mapper = mapper;
         }
 
