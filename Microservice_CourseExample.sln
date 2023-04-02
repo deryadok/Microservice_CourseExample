@@ -26,6 +26,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PhotoStock", "PhotoStock", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Course.Services.PhotoStock", "PhotoStock\Course.Services.PhotoStock\Course.Services.PhotoStock.csproj", "{8FC87208-9C27-440D-A255-B2F2AAC6B6F8}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Basket", "Basket", "{DB0E3001-83BC-4342-9713-36AE806C2047}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Course.Services.Basket", "Basket\Course.Services.Basket\Course.Services.Basket.csproj", "{A43203B4-A712-44B2-83C3-A8B1F0E93F37}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,6 +52,10 @@ Global
 		{8FC87208-9C27-440D-A255-B2F2AAC6B6F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8FC87208-9C27-440D-A255-B2F2AAC6B6F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8FC87208-9C27-440D-A255-B2F2AAC6B6F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A43203B4-A712-44B2-83C3-A8B1F0E93F37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A43203B4-A712-44B2-83C3-A8B1F0E93F37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A43203B4-A712-44B2-83C3-A8B1F0E93F37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A43203B4-A712-44B2-83C3-A8B1F0E93F37}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -59,6 +67,8 @@ Global
 		{561EAB0D-1970-41B5-8317-C08466516C7A} = {F0C815C0-D906-4CCD-9C2C-878D126D5720}
 		{409B4242-7089-41C2-831B-DF44C890AC7A} = {90E5850E-76C7-4EEB-9074-34F8BC514A01}
 		{8FC87208-9C27-440D-A255-B2F2AAC6B6F8} = {409B4242-7089-41C2-831B-DF44C890AC7A}
+		{DB0E3001-83BC-4342-9713-36AE806C2047} = {90E5850E-76C7-4EEB-9074-34F8BC514A01}
+		{A43203B4-A712-44B2-83C3-A8B1F0E93F37} = {DB0E3001-83BC-4342-9713-36AE806C2047}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {249234A7-1731-47A8-AC6A-30026246FA6B}
